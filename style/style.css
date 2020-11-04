@@ -2,21 +2,8 @@
   margin: 0px;
   padding: 0px;
   color: white;
- /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-body{
-    background: #000000; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #434343,
-      #000000
-    ); 
-    background: linear-gradient(
-      to right,
-      #434343,
-      #000000
-    ); 
-}
+
 .navbar ul {
   border: 2px solid red;
   font-size: 30px;
@@ -32,8 +19,13 @@ body{
   text-decoration: none;
 }
 
-.navbar ul li a:hover{
-    background-color: black;
+.navbar ul li a:hover {
+  background-color: black;
+}
+.introduction {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
 }
 .title {
   margin: 23px;
@@ -49,3 +41,4 @@ body{
   margin: 20px;
   border: 2px solid red;
 }
+
