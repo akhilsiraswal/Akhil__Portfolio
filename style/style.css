@@ -3,14 +3,14 @@
   padding: 0px;
   color: white;
 }
-
+/* Navbar Starts Here */
 .navbar ul {
-  border: 4px solid red;
   padding: 20px;
   font-size: 39px;
   overflow: hidden;
   background: linear-gradient(to right, #434343, #000000);
   height: 5vh;
+  position: fixed;
 }
 .navbar ul li {
   display: inline;
@@ -25,6 +25,10 @@
 .navbar ul li a:hover {
   background-color: black;
 }
+
+/* Navbar ends here */
+
+/* Introduction starts here */
 .introduction {
   background: linear-gradient(to right, #434343, #000000);
   height: 80vh;
@@ -32,18 +36,16 @@
   flex-direction: column;
 }
 .text {
-  display:flex;
+  display: flex;
   margin-top: 50px;
   text-align: left;
-
 }
-.typing{
+.typing {
   position: relative;
   margin-left: 10px;
   animation: blink 0.5s infinite ease;
-
 }
-.typing::after{
+.typing::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -52,14 +54,28 @@
 }
 .title {
   margin: auto;
-  text-align: center;
-  font-size: 53px;
-  border: 4px solid red;
-}
+  margin-top: 16vh;
 
-.paragraph {
-  font-size: 30px;
+  font-size: 53px;
+}
+/* Introduction ends here  */
+
+/* About Section starts here  */
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: #434343;
+  height: 100vh;
+}
+.box h1 {
   text-align: center;
-  margin: 20px;
-  border: 4px solid red;
+  font-size: 9vh;
+}
+.box {
+  /* font-size: 40px; */
+  width: 90%;
+  height: 91vh;
+  margin: auto;
+  margin-top: 7vh;
+  box-shadow: 0 5px 15px white;
 }
