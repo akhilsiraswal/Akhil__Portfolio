@@ -3,30 +3,31 @@
   padding: 0px;
   color: white;
 }
+
 /* Navbar Starts Here */
-.navbar {
-  background-color: #434343;
-  /* background: linear-gradient(to right, #434343, #000000); */
+nav {
+  width: 100%;
+  background-color: black;
 }
 
-.navbar ul {
+nav ul {
   padding: 20px;
   font-size: 39px;
   overflow: hidden;
   height: 5vh;
   position: fixed;
 }
-.navbar ul li {
+nav ul li {
   display: inline;
   margin: 10px;
 }
-.navbar ul li a {
+nav ul li a {
   padding: 36px 20px;
   text-decoration: none;
   color: white;
 }
 
-.navbar ul li a:hover {
+nav ul li a:hover {
   background-color: black;
 }
 
@@ -34,8 +35,8 @@
 
 /* Introduction starts here */
 .introduction {
+  border: 10px solid red;
   background: linear-gradient(to right, #434343, #000000);
-  border: 20px solid red;
   height: 80vh;
   display: flex;
   flex-direction: column;
