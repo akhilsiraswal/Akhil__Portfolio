@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Navbar Starts Here */
@@ -32,6 +33,7 @@ nav ul {
 }
 nav ul li {
   display: inline;
+  font-size: 32px;
   margin: 10px;
 }
 nav ul li a {
@@ -50,8 +52,9 @@ nav ul li a:hover {
 
 .akhil {
   text-align: center;
-  padding: 13vh;
-  color: darkgrey;
+    padding: 13vh;
+    color: darkgrey;
+    font-size: 81px;
 }
 #introduction {
   background: linear-gradient(to right, #434343, #000000);
@@ -69,7 +72,7 @@ nav ul li a:hover {
   margin-top: -6vh;
   position: relative;
   margin-left: 73vh;
-  /* animation: blink 0.5s infinite ease; */
+  font-size: 46px;
 }
 .typing::after {
   content: "";
@@ -92,13 +95,12 @@ nav ul li a:hover {
   height: 100vh;
   color: black;
 }
-.box h1 {
+.box h2 {
   text-align: center;
   font-size: 9vh;
   color: black;
 }
 .box {
-  /* font-size: 40px; */
   width: 78%;
   height: 57vh;
   margin: auto;
