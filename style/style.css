@@ -148,9 +148,24 @@ nav ul li a:hover {
   margin-bottom: 19vh;
   box-shadow: 0 5px 10px black;
 }
+
+.item-hidden {
+  position: absolute;
+  background-color: red;
+  
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 3;
+}
+.item-hidden:hover {
+  opacity: 1;
+  border: 2px solid red;
+}
 #animebox {
   width: 100%;
   height: 100%;
+  z-index: 2;
 }
 #web-automation {
   width: 100%;
